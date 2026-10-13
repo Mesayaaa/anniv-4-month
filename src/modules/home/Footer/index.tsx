@@ -44,7 +44,9 @@ const Content = () => {
             iniii di selaa waktu2 ak wkwkwk
           </p>
         </div>
-        <h3 className="heading-4 xl:heading-3 font-dancing-script">&lt;3</h3>
+        <h3 className="heading-4 xl:heading-3 font-dancing-script">
+          i lof u syg &lt;3
+        </h3>
         <button
           className="flex flex-col justify-center items-center mx-auto"
           onClick={handleScrollToTop}
