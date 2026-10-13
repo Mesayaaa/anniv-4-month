@@ -32,12 +32,11 @@ export default function Hero() {
         className="text-center space-y-5 md:space-y-8 w-max mx-auto"
         {...anim({ duration: 1, delay: 0 })}
       >
-        <p className="font-roboto-slab">4 bulan bareng</p>
         <h1 className="heading-4 md:heading-2 lg:heading-1 font-dancing-script font-bold md:font-normal">
-          MESAYA & CINTHYA
+          4 bulan bareng
         </h1>
         <h4 className="text-sm md:text-[1.625rem] font-roboto-slab">
-          October, 14 2026 - Tangerang
+          14 Oktober 2026 · Tangerang
         </h4>
       </motion.div>
       <HeroImage />

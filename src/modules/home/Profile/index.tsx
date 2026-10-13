@@ -38,14 +38,14 @@ export default function Profile() {
           {...anim({ duration: 1, delay: 0.2 })}
         >
           <h3 className="heading-4 md:heading-3 font-dancing-script font-bold">
-            Christopher Mesaya
+            Mesaya
           </h3>
           <div className="space-y-2">
             <p className="text-xs md:text-sm font-roboto-slab">
-              si tampan dan pemberani
+              yang suka bikin suasana jadi seru
             </p>
             <p className="text-sm md:text-base font-roboto-slab">
-              paling mantep
+              partner cerita dan bercanda
             </p>
           </div>
         </Motion.Box>
@@ -64,10 +64,10 @@ export default function Profile() {
           </h3>
           <div className="space-y-2">
             <p className="text-xs md:text-sm font-roboto-slab">
-              si cantikk dan lucuuu
+              yang selalu bikin hari jadi lebih cerah
             </p>
             <p className="text-sm md:text-base font-roboto-slab">
-              paling mantep juga hihi
+              partner favorit buat jalan dan ngobrol
             </p>
           </div>
         </Motion.Box>

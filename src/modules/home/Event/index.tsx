@@ -73,44 +73,16 @@ export default function Event() {
           className="heading-4 md:heading-3 xl:heading-2 font-dancing-script font-bold px-4 md:px-0"
           {...anim(bluryEffect)}
         >
-          Mau date ke blok M lagi gaa sayang??
+          Pesan kecil buat kamu
         </motion.h2>
-        <div className="flex justify-start gap-x-2 md:gap-x-4 mt-betweenBoxMd xl:mt-betweenBox px-4 md:px-0">
-          <div className="space-y-4 md:space-y-6">
-            <motion.ul className="space-y-3 md:space-y-4" {...anim(stagger)}>
-              <Li delay={0.2}>
-                <IoCalendarClearOutline className="text-xl md:text-2xl" />
-                <p className="text-xs md:text-base font-roboto-slab">
-                  14 Oktober 2026
-                </p>
-              </Li>
-              <Li delay={0.4}>
-                <BsClock className="text-xl md:text-2xl" />
-                <p className="text-xs md:text-base font-roboto-slab">
-                  19.00 WIB
-                </p>
-              </Li>
-              <Li delay={0.6}>
-                <PiMapPin className="text-2xl md:text-3xl -translate-x-1" />
-                <p className="text-xs md:text-base font-roboto-slab -translate-x-2">
-                  <span className="font-bold">Wisma Benteng Restaurant</span>
-                  <br />
-                  Jalan Kapten Maulana Lubis No 6
-                </p>
-              </Li>
-            </motion.ul>
-          </div>
-        </div>
-      </div>
-      <div className="w-full md:w-1/2 xl:w-[630px] h-[389px] md:h-[320px] xl:h-[389px]">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5631.39973115063!2d98.67816612873084!3d3.5872587021008466!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x303131cf0fa1607f%3A0x18c10c276bcb239b!2sWisma%20Benteng%20Restaurant!5e0!3m2!1sen!2sid!4v1721889409712!5m2!1sen!2sid"
-          width="100%"
-          height="100%"
-          allowFullScreen={false}
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
+        <motion.p
+          className="mt-5 max-w-xl px-4 text-sm md:px-0 md:text-base font-roboto-slab"
+          {...anim(fadeIn)}
+          custom={0.2}
+        >
+          Besok genap empat bulan kita. Tidak perlu acara besar, cukup luangkan
+          waktu buat ngobrol, ketemu, dan bikin satu momen baru bareng.
+        </motion.p>
       </div>
     </section>
   );

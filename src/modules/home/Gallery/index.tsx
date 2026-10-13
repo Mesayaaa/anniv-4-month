@@ -141,7 +141,7 @@ export default function Gallery() {
             Galeri Kita
           </h2>
           <p className="text-xs md:text-base font-roboto-slab text-white">
-            Beberapa momen yang sayang kalau dilupakan
+            Kumpulan momen kecil yang ingin kita simpan.
           </p>
         </motion.div>
       </div>

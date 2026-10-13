@@ -96,7 +96,9 @@ function Card() {
           <div className="flex justify-start md:justify-center items-center pt-4">
             <button onClick={openInvitation} className="group">
               <div className="flex flex-col justify-center items-center border border-black rounded-lg px-4 py-2 pb-1 -space-y-1">
-                <p className="font-roboto-slab text-sm">Lihat Cerita Kita</p>
+                <p className="font-roboto-slab text-sm">
+                  Buka cerita kita
+                </p>
                 <RiArrowDownWideLine className="text-3xl group-hover:translate-y-1 group-active:scale-75 transition duration-300" />
               </div>
             </button>
