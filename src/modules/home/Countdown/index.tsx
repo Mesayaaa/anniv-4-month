@@ -45,7 +45,7 @@ export default function Countdown() {
   const [time, setTime] = React.useState<Time>(initialTime);
 
   const countdown = () => {
-    const anniversaryDate = new Date("Oct 15, 2026 08:00:00").getTime();
+    const anniversaryDate = new Date("Oct 14, 2026 08:00:00").getTime();
 
     intervalRef.current = setInterval(() => {
       const now = new Date().getTime();
