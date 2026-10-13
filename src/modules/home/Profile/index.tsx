@@ -2,6 +2,7 @@ import { type Variants } from "framer-motion";
 import * as Motion from "@/components/Motion";
 
 import ProgressiveImage from "@/components/ProgressiveImage";
+import { assetPath } from "@/lib/assetPath";
 
 const variants: Variants = {
   initial: {
@@ -78,7 +79,7 @@ export default function Profile() {
           {...anim({ duration: 1, delay: 0.2 })}
         >
           <ProgressiveImage
-            src="/photos/kio.jpg?v=20261013"
+            src={assetPath("/photos/kio.jpg?v=20261013")}
             alt="mesaya-photos"
             width={500}
             height={1000}
@@ -90,7 +91,7 @@ export default function Profile() {
           {...anim({ duration: 1, delay: 0.4 })}
         >
           <ProgressiveImage
-            src="/photos/christine.jpg?v=20261013"
+            src={assetPath("/photos/christine.jpg?v=20261013")}
             alt="cinthya-photos"
             width={500}
             height={1000}

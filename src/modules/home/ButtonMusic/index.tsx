@@ -3,6 +3,7 @@
 import React from "react";
 import { useInvitation } from "@/store/useInvitation";
 import { GiSoundOff, GiSoundOn } from "react-icons/gi";
+import { assetPath } from "@/lib/assetPath";
 
 export default function ButtonMusic() {
   const invitation = useInvitation();
@@ -59,7 +60,7 @@ export default function ButtonMusic() {
       </button>
       <audio
         ref={musicRef}
-        src="/audio/music1.wav"
+        src={assetPath("/audio/music1.wav")}
         loop
         preload="auto"
         className="hidden"

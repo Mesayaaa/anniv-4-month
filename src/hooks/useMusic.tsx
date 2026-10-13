@@ -1,10 +1,11 @@
 import React from "react";
+import { assetPath } from "@/lib/assetPath";
 
 export const useMusic = () => {
   const audioRef = React.useRef<HTMLAudioElement | null>(null);
 
   function play() {
-    audioRef.current = new Audio("/audio/music1.wav");
+    audioRef.current = new Audio(assetPath("/audio/music1.wav"));
     audioRef.current.loop = true;
 
     if (audioRef.current) {

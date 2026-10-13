@@ -5,6 +5,7 @@ import { motion, type Variants } from "framer-motion";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";
 import ModalGallery from "./ModalGallery";
+import { assetPath } from "@/lib/assetPath";
 
 const bluryEffect: Variants = {
   initial: {
@@ -48,19 +49,19 @@ const anim = (variants: Variants) => ({
 });
 
 const images = [
-  "/photos/gallery-1.jpg?v=20261013",
-  "/photos/gallery-2.jpg?v=20261013",
-  "/photos/gallery-3.jpg?v=20261013",
-  "/photos/gallery-4.jpg?v=20261013",
-  "/photos/gallery-5.jpg?v=20261013",
-  "/photos/gallery-6.jpg?v=20261013",
-  "/photos/gallery-7.jpg?v=20261013",
-  "/photos/gallery-8.jpg?v=20261013",
-  "/photos/gallery-9.jpg?v=20261013",
-  "/photos/gallery-10.jpg?v=20261013",
-  "/photos/gallery-11.jpg?v=20261013",
-  "/photos/gallery-12.jpg?v=20261013",
-  "/photos/gallery-13.jpg?v=20261013",
+  assetPath("/photos/gallery-1.jpg?v=20261013"),
+  assetPath("/photos/gallery-2.jpg?v=20261013"),
+  assetPath("/photos/gallery-3.jpg?v=20261013"),
+  assetPath("/photos/gallery-4.jpg?v=20261013"),
+  assetPath("/photos/gallery-5.jpg?v=20261013"),
+  assetPath("/photos/gallery-6.jpg?v=20261013"),
+  assetPath("/photos/gallery-7.jpg?v=20261013"),
+  assetPath("/photos/gallery-8.jpg?v=20261013"),
+  assetPath("/photos/gallery-9.jpg?v=20261013"),
+  assetPath("/photos/gallery-10.jpg?v=20261013"),
+  assetPath("/photos/gallery-11.jpg?v=20261013"),
+  assetPath("/photos/gallery-12.jpg?v=20261013"),
+  assetPath("/photos/gallery-13.jpg?v=20261013"),
 ];
 
 export default function Gallery() {

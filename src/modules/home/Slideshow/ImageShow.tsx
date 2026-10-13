@@ -3,13 +3,14 @@
 import React from "react";
 import Image from "next/image";
 import { AnimatePresence, motion } from "framer-motion"
+import { assetPath } from "@/lib/assetPath";
 
 const photos = [
-    "/photos/slideshow/1.jpg?v=20261013",
-    "/photos/slideshow/2.jpg?v=20261013",
-    "/photos/slideshow/3.jpg?v=20261013",
-    "/photos/slideshow/4.jpg?v=20261013",
-    "/photos/slideshow/5.jpg?v=20261013"
+    assetPath("/photos/slideshow/1.jpg?v=20261013"),
+    assetPath("/photos/slideshow/2.jpg?v=20261013"),
+    assetPath("/photos/slideshow/3.jpg?v=20261013"),
+    assetPath("/photos/slideshow/4.jpg?v=20261013"),
+    assetPath("/photos/slideshow/5.jpg?v=20261013")
 ]
 
 export default function ImageShow() {

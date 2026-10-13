@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Dancing_Script, Roboto_Slab } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
+import { assetPath } from "@/lib/assetPath";
 
 const dancing_script = Dancing_Script({
   subsets: ["latin"],
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
   title: "4 Bulan Bareng | Mesaya & Cinthya",
   description: "Cerita kecil Mesaya dan Cinthya setelah 4 bulan bersama",
   icons: {
-    icon: "/ring.svg",
+    icon: assetPath("/ring.svg"),
   },
   openGraph: {
     images:

@@ -1,5 +1,6 @@
 import React from "react"
 import Image from "next/image"
+import { assetPath } from "@/lib/assetPath";
 import { motion, useScroll, useTransform, Variants } from "framer-motion"
 
 export default function HeroImage() {
@@ -45,7 +46,7 @@ export default function HeroImage() {
                 {...anim({ duration: 1, delay: 0.3 })}
             >
                 <Image
-                    src="/photos/hero.jpg?v=20261013"
+                    src={assetPath("/photos/hero.jpg?v=20261013")}
                     alt="hero-preweding"
                     width={1000}
                     height={600}

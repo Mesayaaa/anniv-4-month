@@ -8,6 +8,7 @@ import { RiArrowDownWideLine } from "react-icons/ri";
 import { motion, type Variants } from "framer-motion";
 import { useInvitation } from "@/store/useInvitation";
 import { useMusic } from "@/hooks/useMusic";
+import { assetPath } from "@/lib/assetPath";
 
 const variants: Variants = {
   initial: {
@@ -106,7 +107,7 @@ function Card() {
         </motion.div>
         <motion.div className="w-full h-screen" {...anim({ delay: 0.1 })}>
           <Image
-            src="/photos/hero.jpg?v=20261013"
+            src={assetPath("/photos/hero.jpg?v=20261013")}
             alt="hero-photos"
             width={1000}
             height={1000}
