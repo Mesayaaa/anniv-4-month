@@ -45,7 +45,7 @@ export default function Countdown() {
   const [time, setTime] = React.useState<Time>(initialTime);
 
   const countdown = () => {
-    const anniversaryDate = new Date("Oct 14, 2026 00:00:00").getTime();
+    const anniversaryDate = new Date("Oct 15, 2026 08:00:00").getTime();
 
     intervalRef.current = setInterval(() => {
       const now = new Date().getTime();
@@ -78,7 +78,7 @@ export default function Countdown() {
   return (
     <section className="container-box2 mt-betweenSectionMd xl:mt-betweenSection py-14 xl:py-20">
       <h2 className="heading-4 md:heading-3 xl:heading-2 font-dancing-script text-center mb-12">
-        Menuju Hari Jadi Kita
+        Menuju kita ngedate bareng hihi
       </h2>
       <motion.div
         className="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-20 xl:gap-32"
