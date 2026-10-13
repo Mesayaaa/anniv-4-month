@@ -81,8 +81,8 @@ export default function Event() {
           custom={0.2}
         >
           Hari ini jadi tanda buat sama sama saling bersyukur & bisa terus
-          saling menghargai dan support satu sama lain buat terus jadi
-          berkembang
+          saling menghargai dan support satu sama lain buat terus berkembang
+          barengg
         </motion.p>
       </div>
     </section>
