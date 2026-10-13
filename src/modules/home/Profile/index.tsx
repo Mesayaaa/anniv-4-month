@@ -42,10 +42,10 @@ export default function Profile() {
           </h3>
           <div className="space-y-2">
             <p className="text-xs md:text-sm font-roboto-slab">
-              yang suka bikin suasana jadi seru
+              si ganteng dari goa hantu
             </p>
             <p className="text-sm md:text-base font-roboto-slab">
-              partner cerita dan bercanda
+              cowo paling mantep
             </p>
           </div>
         </Motion.Box>
@@ -64,10 +64,10 @@ export default function Profile() {
           </h3>
           <div className="space-y-2">
             <p className="text-xs md:text-sm font-roboto-slab">
-              yang selalu bikin hari jadi lebih cerah
+              si cantikk dann lucuuu
             </p>
             <p className="text-sm md:text-base font-roboto-slab">
-              partner favorit buat jalan dan ngobrol
+              cewe paling mantep
             </p>
           </div>
         </Motion.Box>
@@ -78,7 +78,7 @@ export default function Profile() {
           {...anim({ duration: 1, delay: 0.2 })}
         >
           <ProgressiveImage
-            src="/photos/kio.jpg"
+            src="/photos/kio.jpg?v=20261013"
             alt="mesaya-photos"
             width={500}
             height={1000}
@@ -90,7 +90,7 @@ export default function Profile() {
           {...anim({ duration: 1, delay: 0.4 })}
         >
           <ProgressiveImage
-            src="/photos/christine.jpg"
+            src="/photos/christine.jpg?v=20261013"
             alt="cinthya-photos"
             width={500}
             height={1000}

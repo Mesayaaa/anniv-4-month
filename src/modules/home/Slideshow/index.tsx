@@ -9,7 +9,7 @@ export default function Slideshow() {
             4 bulan bareng
           </h1>
           <p className="font-roboto-slab text-xs md:text-base">
-            Makasih sudah nemenin perjalanan ini sampai bulan keempat.
+            Makasih udaa samaa sama bertahan sampe saat ini jugaa sayangg
           </p>
         </div>
       </div>

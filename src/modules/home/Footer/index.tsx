@@ -36,11 +36,12 @@ const Content = () => {
       <div className="space-y-10 md:space-y-16 xl:space-y-24 text-center px-2 md:px-12 xl:px-0">
         <div className="space-y-4">
           <h3 className="heading-4 xl:heading-3 font-dancing-script">
-            4 bulan bareng, dan masih lanjut
+            4 bulan bareng, dan nantii bakal akan terus lanjutt hihi
           </h3>
           <p className="text-xs md:text-sm xl:text-base font-roboto-slab">
-            Makasih sudah hadir dan menjalani semua momen ini bareng. Semoga
-            setelah ini masih banyak cerita baik yang bisa kita buat bersama.
+            Maacii yaa sayang udaa mw sama ak bwuat ngejalanin smw nya bareng.
+            Biar lagu ak tida cuma ngirim biasa ajaa, jadi ak skalian buat web
+            iniii di selaa waktu2 ak wkwkwk
           </p>
         </div>
         <h3 className="heading-4 xl:heading-3 font-dancing-script">&lt;3</h3>

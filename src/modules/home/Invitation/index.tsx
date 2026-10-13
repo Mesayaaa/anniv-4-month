@@ -106,7 +106,7 @@ function Card() {
         </motion.div>
         <motion.div className="w-full h-screen" {...anim({ delay: 0.1 })}>
           <Image
-            src="/photos/hero.jpg"
+            src="/photos/hero.jpg?v=20261013"
             alt="hero-photos"
             width={1000}
             height={1000}

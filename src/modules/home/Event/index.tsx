@@ -73,15 +73,16 @@ export default function Event() {
           className="heading-4 md:heading-3 xl:heading-2 font-dancing-script font-bold px-4 md:px-0"
           {...anim(bluryEffect)}
         >
-          Pesan kecil buat kamu
+          mau kata kata dulu hari ini
         </motion.h2>
         <motion.p
           className="mt-5 max-w-xl px-4 text-sm md:px-0 md:text-base font-roboto-slab"
           {...anim(fadeIn)}
           custom={0.2}
         >
-          Besok genap empat bulan kita. Tidak perlu acara besar, cukup luangkan
-          waktu buat ngobrol, ketemu, dan bikin satu momen baru bareng.
+          Hari ini jadi tanda buat sama sama saling bersyukur & bisa terus
+          saling menghargai dan support satu sama lain buat terus jadi
+          berkembang
         </motion.p>
       </div>
     </section>

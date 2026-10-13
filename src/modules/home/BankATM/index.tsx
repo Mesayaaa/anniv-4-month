@@ -59,8 +59,9 @@ export default function BankATM() {
         {...anim(bluryEffect)}
       >
         <h3 className="heading-4 md:heading-3 font-dancing-script text-center font-bold px-4 md:px-0">
-          Empat bulan mungkin terdengar singkat, tapi sudah cukup untuk membuat
-          banyak cerita yang berarti. Terima kasih sudah tetap memilih kita.
+          Cita-citaku dulu mau jadi astronot. Tapi setelah ketemu kamu, aku
+          sadar kalau keliling di kehidupan kamu aja udah cukup luas buat aku.
+          -mesaya
         </h3>
       </motion.div>
     </section>

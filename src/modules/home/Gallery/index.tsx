@@ -48,19 +48,19 @@ const anim = (variants: Variants) => ({
 });
 
 const images = [
-  "/photos/gallery-1.jpg",
-  "/photos/gallery-2.jpg",
-  "/photos/gallery-3.jpg",
-  "/photos/gallery-4.jpg",
-  "/photos/gallery-5.jpg",
-  "/photos/gallery-6.jpg",
-  "/photos/gallery-7.jpg",
-  "/photos/gallery-8.jpg",
-  "/photos/gallery-9.jpg",
-  "/photos/gallery-10.jpg",
-  "/photos/gallery-11.jpg",
-  "/photos/gallery-12.jpg",
-  "/photos/gallery-13.jpg",
+  "/photos/gallery-1.jpg?v=20261013",
+  "/photos/gallery-2.jpg?v=20261013",
+  "/photos/gallery-3.jpg?v=20261013",
+  "/photos/gallery-4.jpg?v=20261013",
+  "/photos/gallery-5.jpg?v=20261013",
+  "/photos/gallery-6.jpg?v=20261013",
+  "/photos/gallery-7.jpg?v=20261013",
+  "/photos/gallery-8.jpg?v=20261013",
+  "/photos/gallery-9.jpg?v=20261013",
+  "/photos/gallery-10.jpg?v=20261013",
+  "/photos/gallery-11.jpg?v=20261013",
+  "/photos/gallery-12.jpg?v=20261013",
+  "/photos/gallery-13.jpg?v=20261013",
 ];
 
 export default function Gallery() {
@@ -141,7 +141,7 @@ export default function Gallery() {
             Galeri Kita
           </h2>
           <p className="text-xs md:text-base font-roboto-slab text-white">
-            Kumpulan momen kecil yang ingin kita simpan.
+            buat jadi kenang kenangan kita beduaa ajaa
           </p>
         </motion.div>
       </div>

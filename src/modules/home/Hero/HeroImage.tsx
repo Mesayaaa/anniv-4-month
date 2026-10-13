@@ -45,7 +45,7 @@ export default function HeroImage() {
                 {...anim({ duration: 1, delay: 0.3 })}
             >
                 <Image
-                    src="/photos/hero.jpg"
+                    src="/photos/hero.jpg?v=20261013"
                     alt="hero-preweding"
                     width={1000}
                     height={600}
