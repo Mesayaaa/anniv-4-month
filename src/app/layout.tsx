@@ -36,9 +36,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="id">
-      <head>
-        <link rel="icon" href="/ring.svg" sizes="any" />
-      </head>
       <body className={`${dancing_script.variable} ${roboto_slab.variable}`}>
         {children}
         <Toaster duration={2000} />
