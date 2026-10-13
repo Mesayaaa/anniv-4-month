@@ -79,9 +79,9 @@ function Card() {
         >
           <div className="space-y-4">
             <div className="-space-y-3">
-              <h3 className="heading-3 font-roboto-slab">22</h3>
-              <h3 className="heading-3 font-roboto-slab">09</h3>
-              <h3 className="heading-3 font-roboto-slab">24</h3>
+              <h3 className="heading-3 font-roboto-slab">14</h3>
+              <h3 className="heading-3 font-roboto-slab">10</h3>
+              <h3 className="heading-3 font-roboto-slab">26</h3>
             </div>
             <div className="w-[1.5px] bg-black h-36 ml-5" />
             <h2 className="heading-3 xl:heading-2 font-bold font-dancing-script">

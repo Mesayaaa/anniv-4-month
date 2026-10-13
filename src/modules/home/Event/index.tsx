@@ -88,7 +88,7 @@ export default function Event() {
               <Li delay={0.2}>
                 <IoCalendarClearOutline className="text-xl md:text-2xl" />
                 <p className="text-xs md:text-base font-roboto-slab">
-                  September, 22 2024
+                  October, 14 2026
                 </p>
               </Li>
               <Li delay={0.4}>

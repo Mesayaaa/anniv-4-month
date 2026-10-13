@@ -37,7 +37,7 @@ export default function Hero() {
           MESAYA & CINTHYA
         </h1>
         <h4 className="text-sm md:text-[1.625rem] font-roboto-slab">
-          September, 22 2024 - Medan
+          October, 14 2026 - Tangerang
         </h4>
       </motion.div>
       <HeroImage />

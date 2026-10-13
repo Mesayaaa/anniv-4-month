@@ -14,7 +14,7 @@ const roboto_slab = Roboto_Slab({
 
 export const metadata: Metadata = {
   title: "Anniversary of Mesaya & Cinthya",
-  description: "The anniversary of mesaya & cinthya at September, 22 2024",
+  description: "The anniversary of mesaya & cinthya at October, 14 2026",
   icons: {
     icon: "/ring.svg",
   },
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     locale: "ID-id",
     siteName: "",
     title: "Anniversary of Mesaya & Christine",
-    description: "The anniversary of mesaya & cinthyat September, 22 2024",
+    description: "The anniversary of mesaya & cinthyat October, 14 2026",
   },
 };
 
