@@ -45,11 +45,11 @@ export default function Countdown() {
   const [time, setTime] = React.useState<Time>(initialTime);
 
   const countdown = () => {
-    const weddingDay = new Date("Oct 14, 2026 19:00:00").getTime();
+    const anniversaryDate = new Date("Oct 14, 2026 00:00:00").getTime();
 
     intervalRef.current = setInterval(() => {
       const now = new Date().getTime();
-      const distance = weddingDay - now;
+      const distance = anniversaryDate - now;
 
       const days = Math.floor(distance / (24 * 60 * 60 * 1000));
       const hour = Math.floor(
@@ -77,14 +77,17 @@ export default function Countdown() {
 
   return (
     <section className="container-box2 mt-betweenSectionMd xl:mt-betweenSection py-14 xl:py-20">
+      <h2 className="heading-4 md:heading-3 xl:heading-2 font-dancing-script text-center mb-12">
+        Menuju Hari Jadi Kita
+      </h2>
       <motion.div
         className="flex flex-col md:flex-row justify-center items-center gap-16 md:gap-20 xl:gap-32"
         {...anim(stagger)}
       >
-        <Li type="Days" value={time.days} delay={0.2} />
-        <Li type="Hour" value={time.hour} delay={0.4} />
-        <Li type="Minutes" value={time.minute} delay={0.6} />
-        <Li type="Seconds" value={time.second} delay={0.8} />
+        <Li type="Hari" value={time.days} delay={0.2} />
+        <Li type="Jam" value={time.hour} delay={0.4} />
+        <Li type="Menit" value={time.minute} delay={0.6} />
+        <Li type="Detik" value={time.second} delay={0.8} />
       </motion.div>
     </section>
   );

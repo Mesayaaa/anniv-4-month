@@ -33,11 +33,11 @@ function Content() {
       <ButtonMusic />
       <Slideshow />
       <Profile />
-      <OurStory />
+      {/* <OurStory /> */}
       <Gallery />
-      {/*       <Event />
+      <Event />
       <BankATM />
-      <Guestbook />
+      {/* <Guestbook />
       <Reservation /> */}
       <Countdown />
       <Footer />

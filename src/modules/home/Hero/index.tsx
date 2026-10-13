@@ -32,7 +32,7 @@ export default function Hero() {
         className="text-center space-y-5 md:space-y-8 w-max mx-auto"
         {...anim({ duration: 1, delay: 0 })}
       >
-        <p className="font-roboto-slab">The anniversary of</p>
+        <p className="font-roboto-slab">4 bulan bareng</p>
         <h1 className="heading-4 md:heading-2 lg:heading-1 font-dancing-script font-bold md:font-normal">
           MESAYA & CINTHYA
         </h1>

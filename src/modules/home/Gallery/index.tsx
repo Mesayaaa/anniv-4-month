@@ -138,10 +138,10 @@ export default function Gallery() {
           {...anim(bluryEffect)}
         >
           <h2 className="heading-4 md:heading-3 xl:heading-2 font-dancing-script text-white">
-            Our Gallery
+            Galeri Kita
           </h2>
           <p className="text-xs md:text-base font-roboto-slab text-white">
-            A showcase of our most beautiful moments
+            Beberapa momen yang sayang kalau dilupakan
           </p>
         </motion.div>
       </div>

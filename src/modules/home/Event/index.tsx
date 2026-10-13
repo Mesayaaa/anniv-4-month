@@ -73,28 +73,21 @@ export default function Event() {
           className="heading-4 md:heading-3 xl:heading-2 font-dancing-script font-bold px-4 md:px-0"
           {...anim(bluryEffect)}
         >
-          Anniversary Anniversary event
+          Mau date ke blok M lagi gaa sayang??
         </motion.h2>
         <div className="flex justify-start gap-x-2 md:gap-x-4 mt-betweenBoxMd xl:mt-betweenBox px-4 md:px-0">
-          <GoDotFill className="text-base md:text-lg lg:text-xl translate-y-1" />
           <div className="space-y-4 md:space-y-6">
-            <motion.h4
-              className="text-base md:heading-4 font-dancing-script font-bold"
-              {...anim(bluryEffect)}
-            >
-              Reseption
-            </motion.h4>
             <motion.ul className="space-y-3 md:space-y-4" {...anim(stagger)}>
               <Li delay={0.2}>
                 <IoCalendarClearOutline className="text-xl md:text-2xl" />
                 <p className="text-xs md:text-base font-roboto-slab">
-                  October, 14 2026
+                  14 Oktober 2026
                 </p>
               </Li>
               <Li delay={0.4}>
                 <BsClock className="text-xl md:text-2xl" />
                 <p className="text-xs md:text-base font-roboto-slab">
-                  19:00 WIB - end
+                  19.00 WIB
                 </p>
               </Li>
               <Li delay={0.6}>

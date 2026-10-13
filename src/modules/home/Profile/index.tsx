@@ -42,10 +42,10 @@ export default function Profile() {
           </h3>
           <div className="space-y-2">
             <p className="text-xs md:text-sm font-roboto-slab">
-              The youngest son of the couple
+              si tampan dan pemberani
             </p>
             <p className="text-sm md:text-base font-roboto-slab">
-              Tn. Edward and Ny. Lui Lina Tan
+              paling mantep
             </p>
           </div>
         </Motion.Box>
@@ -64,10 +64,10 @@ export default function Profile() {
           </h3>
           <div className="space-y-2">
             <p className="text-xs md:text-sm font-roboto-slab">
-              First daughter of the couple
+              si cantikk dan lucuuu
             </p>
             <p className="text-sm md:text-base font-roboto-slab">
-              Tn. Kalim Sentosa and Ny. Lely Yanti
+              paling mantep juga hihi
             </p>
           </div>
         </Motion.Box>

@@ -13,8 +13,8 @@ const roboto_slab = Roboto_Slab({
 });
 
 export const metadata: Metadata = {
-  title: "Anniversary of Mesaya & Cinthya",
-  description: "The anniversary of mesaya & cinthya at October, 14 2026",
+  title: "4 Bulan Bareng | Mesaya & Cinthya",
+  description: "Cerita kecil Mesaya dan Cinthya setelah 4 bulan bersama",
   icons: {
     icon: "/ring.svg",
   },
@@ -24,8 +24,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "ID-id",
     siteName: "",
-    title: "Anniversary of Mesaya & Christine",
-    description: "The anniversary of mesaya & cinthyat October, 14 2026",
+    title: "4 Bulan Bareng | Mesaya & Cinthya",
+    description: "Cerita kecil Mesaya dan Cinthya setelah 4 bulan bersama",
   },
 };
 
@@ -35,7 +35,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="id">
       <head>
         <link rel="icon" href="/ring.svg" sizes="any" />
       </head>

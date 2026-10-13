@@ -36,22 +36,21 @@ const Content = () => {
       <div className="space-y-10 md:space-y-16 xl:space-y-24 text-center px-2 md:px-12 xl:px-0">
         <div className="space-y-4">
           <h3 className="heading-4 xl:heading-3 font-dancing-script">
-            Thank you
+            HAPPY ANNIV 4 BULAN YAA SAYANG (kalo suda ganti hari hihi)
           </h3>
           <p className="text-xs md:text-sm xl:text-base font-roboto-slab">
-            It is an honor and happiness for us if you are willing to be present
-            to give your blessing to the bride and groom.
+            Makasih udaa bareng sama aku sampai bulan ke-4 kita. Semoga ke
+            depannya masih banyak something yang mantap buat kita bisa saling
+            sayang.
           </p>
         </div>
-        <h3 className="heading-4 xl:heading-3 font-dancing-script">
-          Anniversary of MESAYA & CINTHYA
-        </h3>
+        <h3 className="heading-4 xl:heading-3 font-dancing-script">&lt;3</h3>
         <button
           className="flex flex-col justify-center items-center mx-auto"
           onClick={handleScrollToTop}
         >
           <RiArrowUpWideLine className="text-2xl" />
-          <p className="font-roboto-slab text-xs">Back to top</p>
+          <p className="font-roboto-slab text-xs">Kembali ke atas</p>
         </button>
       </div>
       <div className="px-2 md:px-12 xl:px-28 w-11/12 mx-auto">

@@ -59,8 +59,8 @@ export default function BankATM() {
         {...anim(bluryEffect)}
       >
         <h3 className="heading-4 md:heading-3 font-dancing-script text-center font-bold px-4 md:px-0">
-          Your presence is the best gift, but if you can&apos;t come and still
-          want to contribute to our future, our bank details are below.
+          Cita-citaku dulu mau jadi astronot. Tapi setelah ketemu kamu, aku
+          sadar kalau keliling di kehidupan kamu aja udah cukup luas buat aku.
         </h3>
         <Modal open={open} setOpen={setOpen}>
           <Modal.Button>
